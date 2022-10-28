@@ -1,7 +1,8 @@
 package com.store.model;
+import java.io.Serializable;
 import java.sql.Date;
 
-public class StoreVO implements java.io.Serializable {
+public class StoreVO implements Serializable {
     private String storeAcc;
     private String storePwd;
     private Integer accStat;
